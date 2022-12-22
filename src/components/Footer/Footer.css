@@ -1,0 +1,32 @@
+.footer{
+    background-color: orange;
+    height: fit-content;
+    padding: 3rem;
+
+}
+
+.Flogo{
+    font-size: 80px;
+}
+
+#facebook{
+    color: blue;
+    background: white;
+    border-radius: 50%;
+}
+
+#insta{
+    color: #c92bb7;
+}
+
+#twitter{
+    color: #1DA1F2;
+}
+
+#linkedin{
+    color: #2867B2;
+}
+
+#youtube{
+    color: red;
+}

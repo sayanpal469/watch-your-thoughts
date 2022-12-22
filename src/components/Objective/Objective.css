@@ -1,0 +1,62 @@
+.objective-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.objective-content li{
+    list-style-type: disc;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.objective-content li::marker {
+    font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width: 600px){
+	.objective-container{
+        padding: 2rem;
+    }
+}
+
+
+/* .objective-header{
+    font-size: 32px;
+    font-weight: 600;
+}
+.objective-header h2{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+.content-bullet{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: justify;
+}
+
+.bullet{
+    padding: 0;
+    margin: 0;
+
+}
+.text{
+    margin: 0;
+    padding: 0;
+}
+
+.objective-content{
+    margin-bottom: 16px;
+} */

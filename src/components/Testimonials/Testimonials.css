@@ -1,0 +1,46 @@
+.testimonials-container{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+    background: #68237B;
+    padding: 25px 0px;
+
+}
+.testimonial-div{
+    width: 100%;
+    height: 100%;
+}
+.testimonial-header h1{
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 30px;
+}
+.quote{
+    transform: scale(3.5);
+    margin-right: 15px;
+}
+.review-text{
+    margin: auto;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.arrow-testimonials{
+    width: 100%;
+    display: flex;
+    height: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.arrows{
+    transform: scale(1.5);
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+	.testimonial-header h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
